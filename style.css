@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
 /* STYLE SECTIONING TAGS */
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
+  font-family: 'Gaegu', cursive;
   background-color: #f5f1e6;
   margin: 0;
   padding:  0;
@@ -164,7 +167,7 @@ nav ul li a {
   text-decoration: none;
   color: #3e2223;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.9em;
   transition: color 0.3s ease;
 }
 
@@ -175,24 +178,35 @@ nav ul li a:hover {
 
 .button-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  max-width: 700px;
+  grid-template-columns: 1fr 1fr; /* always 2 side by side */
+  gap: 30px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
+  margin-top: -1em;
 }
 
 .recipe-btn {
-  display: block;
-  text-align: center;
-  background: #d9d4c5;
-  color: #4a5a44;
-  font-weight: bold;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fffdf8;
+  border: 2px solid #dcd7c9;
   border-radius: 12px;
   text-decoration: none;
-  font-size: 1.2em;
-  transition: background 0.3s ease, transform 0.2s ease;
+  color: #4a5a44;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 20px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.recipe-btn img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .recipe-btn:hover {
@@ -220,4 +234,20 @@ nav ul li a:hover {
   text-align: center;
   color: #fff;
   padding-top: 2em;
+  overflow: hidden;
 }
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-title {
+  text-align: center;
+  color: #3b3a36;
+  margin-top: 40px;
+  font-size: 2.5em;
+}
+
