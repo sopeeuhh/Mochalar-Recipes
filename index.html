@@ -8,18 +8,65 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="/style.css" />
+	  <link rel="stylesheet" href="./style.css" />
 
 	  <!-- link the webpage's JavaScript file -->
-	  <script src="/script.js" defer></script>
+	  <script src="./script.js" defer></script>
 
   </head>
   
   <body>
     
-    <h1>This is my very own website!</h1>
+ <!--Logo nav bar-->
+    <header>
+      <div class ="header-container">
+        <a href="index.html" class="logo-link">
+          <img src="mochalarlogo.png" alt="Mochalar Logo" class="logo">
+        </a>
 
-    <img src="assets/cat.jpg">
-    
-  </body>
-</html>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Cookies</a></li>
+            <li><a href="contact.html">Brownies</a></li>
+          </ul>
+        </nav>
+      </div>
+  
+    </header>
+
+    <!--Picture slideshow-->
+    <section class="slideshow-container">
+      <div class="slide fade">
+        <img src="chocolatechip.png" alt="Cookies">
+        <div class="caption">Homemade chewy chocolate chip cookies
+      </div>
+      </div>
+
+      <div class="slide fade">
+        <img src="brookie.png" alt="Brookies">
+        <div class="caption">Fudgy Brookies</div>
+      </div>
+
+      <div class="slide fade">
+        <img src="butterscotch.png" alt="Butterscotch cookies">
+        <div class="caption">Butterscotch</div>
+      </div>
+    </section>
+
+    <!-- Recipe Cards -->
+    <main>
+      <section class="recipes">
+        <a href="cookie.html" class="recipe-card">
+          <h2>Chocolate Chip Cookies</h2>
+          <img src="chocolatechip.png" alt="Chocolate Chip Cookies">
+          <p>Classic chewy cookies</p>
+        </a>
+        <a href="brookie.html" class="recipe-card">
+          <h2>Brookies</h2>
+          <img src="brookie.png" alt="Brookies">
+          <p>Fudgy brookies</p>
+          </a>
+      </section>
+    </main>
+
