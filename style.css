@@ -302,7 +302,37 @@ nav ul li a:hover {
   
 }
 
+.recipe-bottom-section {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fffdf8;
+  border: 4px solid #dcd7c9;
+  border-radius: 12px;
+  color: #3e2223;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 5em;
+  margin-top: 3em;
+  margin-left: 1.8em;
+  margin-right: 1.8em;
+}
 
+.recipe-bottom-text {
+  text-align: left;
+  color: #7a8f73;
+  margin-top: 8px;
+  padding-bottom: 2em;
+  padding-right: 35em;
 
+}
 
-
+.recipe-list {
+  text-align: left;
+  color: #3e2223;
+  font-size: 1.2em;
+  list-style-type: none;
+  padding-right: 45.5em;
+  margin-top: -2em;
+}
