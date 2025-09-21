@@ -20,7 +20,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 2.2em;
-  color: #2f3e2f;
+  color: #3e2223;
 }
 
 header p {
@@ -249,8 +249,19 @@ nav ul li a:hover {
 
 .page-title {
   text-align: center;
-  color: #3b3a36;
+  color: #3e2223;
   margin-top: 40px;
   font-size: 2.5em;
+}
+
+.subtitle {
+  text-align: center;
+  color: #3e2223;
+  margin-top: -20px;
+  font-size: 1.2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 0.5em;
+  
 }
 
