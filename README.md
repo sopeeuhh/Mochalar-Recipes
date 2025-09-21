@@ -1,52 +1,7 @@
-# Personal Website Starter Code
-
-This is a place for you to start building your personal website!
-
-### Project Requirements
-Your project should:
-- Include one home HTML page that's all about you!
-- Include a navigation bar that is included on all your website's pages.
-- Include one portfolio HTML page to showcase your projects.
-- Have all text, image(s), links, and/or videos on the page contained within appropriate HTML elements.
-- Include alt text for every image in your website.
-- Apply styles to text, image, and navigation bar elements using CSS rules.
-- Use classes and/or IDs to style CSS elements.
-
-### Extensions
-You can extend your project further by:
-- Customizing the fonts.
-- Adding some fancy CSS styles.
-- Embedding YouTube videos.
-- Adding another page or more content.
+1. Mochalar is a website where I display a bunch of amazing recipes for sweet treats that anyone can use and learn from. they have easy to follow steps, ingredient lists, and pictures that help people make sure their end result is correct.
+2. I made my project so I could help teach other people how to bake these yummy treats. Everytime I create these sweet treats, people would always ask for more, so this website could teach them how to make their own treats when I'm not availiable.
+3. I made my project with HTML and CSS. I first imported most of the image files I knew I was going to use for the website. I created an outline of what I wanted my website to look like and experimented with a bunch of different designs until I found the right one. I created specific sections for each of the html files, text, and images, so it would be easy to design in css. I created recipe tiles for the cookies and the brownies using the grid thing, added the image files, and then added the text for the ingredients and recipe in a list form using the ul and li. I also added a cool nav bar with a cute logo. i added an event page where people could see how these sweet treats made a great impact in my community and how it could also do the same for others.
+4. I struggled a lot with positioning in css. I would then later find it was because of a missing semicolon or overwritten code. But, I did learn how to better position the contents on the page and make it a lot more presentable.
 
 
-### Image Attributions
-*Tell us where you found the image you are using! Make sure it is in the public domain, has a license that allows you to use it, or is one you took on your own. Check out [archive.org](https://archive.org/), [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/), or [Burst](https://burst.shopify.com/) for free, uncopyrighted images.*
-- Ada Lovelace Image on index.html: Alfred Edward Chalon / Public domain 
-- Ada Lovelace Program Image on portfolio.html: Ada Lovelace / Public domain
-- The Analytical Engine portfolio.html: Science Museum London / Science and Society Picture Library / CC BY-SA [https://creativecommons.org/licenses/by-sa/2.0]()
-- Portfolio Header Background Code Image from Pixabay [Image Link](https://pixabay.com/vectors/background-the-background-1086840/)
-
----
-
-## File Overview
-
-### ← README.md
-
-That's this file. This is the place to tell people more about what your website does and how you built it. 
-
-### ← index.html
-
-HTML files are for content! Add your text, images, buttons, and more using HTML tags.
-
-### ← style.css
-
-CSS files add styling rules to your content like changing colors and fonts. 
-
-### ← script.js
-
-JavaScript files add interactivity to your website using code. This is where you can listen for events, then take an action.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project. You do not need to add anything to this folder unless you are working on the extensions. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg`.
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
