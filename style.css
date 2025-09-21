@@ -331,8 +331,26 @@ nav ul li a:hover {
 .recipe-list {
   text-align: left;
   color: #3e2223;
-  font-size: 1.2em;
+  font-size: 1em;
   list-style-type: none;
-  padding-right: 45.5em;
   margin-top: -2em;
+  padding-right: 2em;
+  line-height: 1.5em;
+}
+
+.recipe-image {
+  width: 40em;
+  height: 30em;
+  position:absolute;
+  right: 8em;
+  margin-top: -31em;
+  overflow: hidden;
+  border: 4px solid #dcd7c9;
+  border-radius: 12px;
+}
+
+.recipe-image img {
+  width: 110%;
+  height: 150%;
+
 }
