@@ -268,3 +268,41 @@ nav ul li a:hover {
   padding-right: 10em;
 }
 
+.ingredient-title {
+  text-align: left;
+  color: #7a8f73;
+  margin-top: 40px;
+  font-size: 1.5em;
+  padding-left: 5em;
+  text-decoration: underline;
+}
+
+.ingredient-list {
+  text-align: left;
+  color: #3e2223;
+  font-size: 1.2em;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredient-list li {
+  padding-left: 5em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+}
+
+.ingredient-list li::before {
+  content: "•";
+  color: #7a8f73;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  padding-left: 1em;
+  
+}
+
+
+
+
+
